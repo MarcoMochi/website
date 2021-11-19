@@ -1,0 +1,29 @@
+body{
+  background-color: #3AAFA9;
+}
+.photo{
+  width: 25%;
+  clip-path: circle();
+}
+
+.custom{
+  background: #fff url("assets/icon/google-scholar.svg") no-repeat;
+  background-size: contain;
+}
+
+.icons{
+  width: 50%;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
