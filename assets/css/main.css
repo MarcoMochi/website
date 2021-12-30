@@ -1,12 +1,73 @@
+html {
+    overflow-y: scroll;
+    font-size: 100%;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
 .photo{
   width: 25%;
   clip-path: circle();
 }
 
-.custom-jumbo{
- background: linear-gradient(rgba(255,255,255,.4), rgba(255,255,255,.4)), url("../images/bread_cropped.jpg") no-repeat;
-  background-repeat: no-repeat;
+.fixed{
+  color: #EDF5E1;
 }
+
+.custom-jumbo1{
+ color: #5CDB95;
+ background: #05386B;
+ background-repeat: no-repeat;
+}
+
+.nav {
+  background-color: #EDF5E1;
+}
+
+.custom-jumbo2{
+ color: #EDF5E1;
+ background: #5CDB95;
+ background-repeat: no-repeat;
+}
+
+.custom-jumbo3{
+ color: #EDF5E1;
+ background: #05386B;
+ background-repeat: no-repeat;
+}
+
+.container p {
+  letter-spacing: 0.1rem;
+  overflow: hidden;
+}
+
+.container p span.typed-text {
+  font-weight: bold;
+  color: #5CDB95;
+}
+.container p span.cursor {
+  display: inline-block;
+  background-color: #ccc;
+  margin-left: 0.1rem;
+  width: 3px;
+  animation: blink 1s infinite;
+}
+.container p span.cursor.typing {
+  animation: none;
+}
+@keyframes blink {
+  0%  { background-color: #ccc; }
+  49% { background-color: #ccc; }
+  50% { background-color: transparent; }
+  99% { background-color: transparent; }
+  100%  { background-color: #ccc; }
+}
+
+.paper {
+  color: #05386B;
+  font-weight: 500;
+}
+
 
 .custom{
   background: #fff url("../icon/google-scholar.svg") no-repeat;
@@ -24,7 +85,7 @@
   text-align: center;
   text-decoration: none;
   border-radius: 50%;
-  color: black;
+  color: #EDF5E1;
 }
 
 .fa:hover {
