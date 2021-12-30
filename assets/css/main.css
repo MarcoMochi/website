@@ -1,8 +1,10 @@
 html {
     overflow-y: scroll;
-    font-size: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
+
 }
 
 .photo{
@@ -21,19 +23,32 @@ html {
 }
 
 .nav {
-  background-color: #EDF5E1;
+  background-color: #5cdb95;
 }
 
 .custom-jumbo2{
- color: #EDF5E1;
- background: #5CDB95;
+ color: #05386B;
+ background: #EDF5E1;
  background-repeat: no-repeat;
 }
 
 .custom-jumbo3{
- color: #EDF5E1;
- background: #05386B;
+ color: #05386B;
+ background: #5cdb95;
  background-repeat: no-repeat;
+}
+
+.experience {
+  border: solid;
+  border-width: 2px 2px;
+  border-color: #05386B;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  border-radius: 5px;
+  color: #05386B;
+}
+
+.list-group-item+.list-group-item {
+    border-top-width: 1px;
 }
 
 .container p {
@@ -63,9 +78,13 @@ html {
   100%  { background-color: #ccc; }
 }
 
-.paper {
+.blue-colored {
   color: #05386B;
   font-weight: 500;
+}
+
+.white-colored {
+  color: #EDF5E1;
 }
 
 
