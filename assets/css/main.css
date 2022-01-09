@@ -170,6 +170,12 @@ hr {
   width: 100%;
   margin-bottom: 70px;
 }
+
+.timeline-item:nth-child .timeline-content {
+  float: right;
+  padding: 15px 30px 10px 30px;
+}
+
 .timeline-item:nth-child(even) .timeline-content {
   float: right;
   padding: 15px 30px 10px 30px;
