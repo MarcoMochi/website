@@ -8,8 +8,8 @@
   <!-- Add icon library -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <style>
-    @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
-  </style>
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+</style>
   <link rel="stylesheet" href="assets/css/main.css">
   <title>Personal Site</title>
 </head>
@@ -17,7 +17,7 @@
 <body>
 
   <div class="min-vh-100">
-    <div class="text-center custom-jumbo1">
+    <div class="text-center custom-jumbo">
       <h2 class="p-4 font-weight-bold h1">Hi, I'm Marco Mochi</h2>
       <div class="display-10 container lead">
         <p class="fixed">I'm a PhD studend at the University of Genoa working with </p>
@@ -39,72 +39,80 @@
     <navbar class="navbar sticky-top navbar-expand-md  d-none d-md-block">
       <div class="container justify-content-center">
         <ul class="navbar-nav font-weight-bold">
-          <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="#">Publications</a>
+          <li class="nav-item font-weight-bold h4">
+            <a class="nav-link" aria-current="page" href="#pub">Publications</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="#">Educations</a>
+          <li class="nav-item font-weight-bold h4">
+            <a class="nav-link" aria-current="page" href="#exp">Experiences</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="#">Experiences</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="#">About me</a>
+          <li class="nav-item font-weight-bold h4">
+            <a class="nav-link" aria-current="page" href="#edu">Educations</a>
           </li>
         </ul>
       </div>
     </navbar>
-    <div class="pt-3 custom-jumbo2">
+
+    <div class="pt-3 custom-jumbo2" id="pub">
       <h2 class="text-center pt-3 font-weight-bold h1">Publications</h2>
       <ul class="mx-auto py-3 gap-3 w-75 list-group list-group-flush bg-transparent">
         <li class="list-group-item bg-transparent ">
-          <a href="#" class="blue-colored text-decoration-none text-left">An ASP-based solution to the Chemotherapy Treatment Scheduling problem</a> - <span class="fst-italic"> C. Dodaro, G. Galatà, M. Maratea, M. Mochi, I. Porro</span>
+          <a target="_blank" href="publications\An ASP-based Solution to the Operating Room Scheduling with care units.pdf" class="blue-colored text-decoration-none text-left">An ASP-based Solution to the Operating Room Scheduling with care units</a> - <span class="fst-italic"> G. Galatà, M. Maratea, M. Mochi, V. Morozan, I. Porro</span>
+          - <span class="fw-light "> Proc. of the 9th Italian workshop on Planning and Scheduling (IPS'21) and the 28th International Workshop on "Experimental Evaluation of Algorithms for Solving Problems with Combinatorial Explosion" (RCRA'21) CEUR Workshop Proceedings, Vol. 3605, 2021</span>
+        </li>
+        <li class="list-group-item bg-transparent ">
+          <a target="_blank" href="publications\Scheduling Pre-Operative Assessment Clinic via Answer Set Programming.pdf" class="blue-colored text-decoration-none text-left">Scheduling Pre-Operative Assessment Clinic via Answer Set Programming</a> - <span class="fst-italic"> S. Caruso, G. Galatà, M. Maratea, M. Mochi, I. Porro</span>
+          - <span class="fw-light "> Proc. of the 9th Italian workshop on Planning and Scheduling (IPS'21) and the 28th International Workshop on "Experimental Evaluation of Algorithms for Solving Problems with Combinatorial Explosion" (RCRA'21) CEUR Workshop Proceedings, Vol. 3605, 2021</span>
+        </li>
+        <li class="list-group-item bg-transparent ">
+          <a target="_blank" href="publications\An ASP-based Solution to the Chemotherapy Treatment Scheduling Problem.pdf" class="blue-colored text-decoration-none text-left">An ASP-based solution to the Chemotherapy Treatment Scheduling problem</a> - <span class="fst-italic"> C. Dodaro, G. Galatà, M. Maratea, M. Mochi, I. Porro</span>
           - <span class="fw-light "> Theory and Practice of Logic Programming, Vol. 21(5-6), 2021: Proc. of the 37th International Conference on Logic Programming (ICLP 2021) </span> - <span class="blue-colored fw-bold"> Best application paper
             Award</span></span>
         </li>
         <li class="list-group-item bg-transparent ">
-          <a href="#" class="blue-colored text-decoration-none text-left">Answer Set Programming in Healthcare: Extended Overview</a> - <span class="fst-italic"> M. Alviano, R. Bertolucci, M. Cardellini, C. Dodaro, G. Galatà, M. Kamran, M.
+          <a target="_blank" href="publications\Answer Set Programming in Healthcare Extended Overview.pdf" class="blue-colored text-decoration-none text-left">Answer Set Programming in Healthcare: Extended Overview</a> - <span class="fst-italic"> M. Alviano, R. Bertolucci, M. Cardellini, C. Dodaro, G. Galatà, M. Kamran, M.
             Maratea, M. Mochi, V. Morozan, I. Porro, M. Schouten</span>
           - <span class="fw-light "> Proc. of the 19th International Conference of the Italian Association for Artificial Intelligence (AI*IA 2020), CEUR Workshop Proceedings, Vol. 2715, 2020 </span>
         </li>
         <li class="list-group-item bg-transparent ">
-          <a href="#" class="blue-colored text-decoration-none text-left">Chemotherapy Treatment Scheduling via Answer Set Programming</a> - <span class="fst-italic"> C. Dodaro, G. Galatà, M. Maratea, M. Mochi, I. Porro</span>
+          <a target="_blank" href="publications\Chemotherapy Treatment Scheduling Problem via Answer Set Programming.pdf" class="blue-colored text-decoration-none text-left">Chemotherapy Treatment Scheduling via Answer Set Programming</a> - <span class="fst-italic"> C. Dodaro, G. Galatà, M. Maratea, M. Mochi, I. Porro</span>
           - <span class="fw-light "> Proc. of the 35th Edition of the Italian Conference on Computational Logic (CILC 2020), CEUR Workshop Proceedings, Vol. 2710, pages 342-365, 2020 </span>
         </li>
       </ul>
+      <hr>
     </div>
-    <div class="pt-3 custom-jumbo1">
+
+    <div class="pt-3 custom-jumbo1" id="exp">
       <h2 class="text-center pt-3 font-weight-bold h1">Experiences</h2>
       <div class="list-group py-3 gap-4">
-        <div class="list-group-item experience py-3 mx-auto w-75">
-          <h5 class="py-2 headline text-center mb-1">PhD</h5>
+        <div class="list-group-item experience pb-2 mx-auto w-75">
+          <h5 class="headline text-center mb-1">PhD</h5>
           <small class="text-rigt"> Nov-2021 to Present </small>
           <p class="mb-1 justify-content-center">Currently, I'm a PhD student at DIBRIS in "Computer Science and Systems Engineering". The title of my PhD course is "Planning and Scheduling for Digital Health".
             I'm currently working with AI metodologies, such as automated reasoning, and with problems such as Explainability and Model Recoinciliation. During the PhD I'm helping students with their bacheleor's and master's thesis in the
             healthcare domain. </p>
         </div>
-        <div class="list-group-item experience py-3 mx-auto w-75">
-          <h5 class="py-2 headline text-center mb-1">Research Grant</h5>
+        <div class="list-group-item experience pb-2 mx-auto w-75">
+          <h5 class="headline text-center mb-1">Research Grant</h5>
           <small class="text-rigt"> Jan-2021 to Nov-2021 </small>
           <p class="mb-1 justify-content-center">I was an "Assegnista di Ricerca" at DIBRIS of the University of Genoa. The aim of the grant was to
             analyze real world problems and implement solutions using AI metodologies, in particular knowledge representation and automated reasoning. The
             work was done in the context of the joint laboratory between the DIBRIS and SurgiQ Srl.</p>
         </div>
-        <div class="list-group-item experience py-3 mx-auto w-75">
-          <h5 class="py-2 headline text-center mb-1">Teaching support</h5>
+        <div class="list-group-item experience pb-2 mx-auto w-75">
+          <h5 class="headline text-center mb-1">Teaching support</h5>
           <small class="text-start"> Mar-2021 to Nov-2021 </small>
           <p class="mb-1 justify-content-center">I prepared some code examples in Java for the exercises and helped to define the guideline
             for the exam, then I corrected the requested students' projects. The students learnt about Grammars, Touring Machine, and Propositional Logic. </p>
         </div>
-        <div class="list-group-item experience py-3 mx-auto w-75">
-          <h5 class="py-2 headline text-center mb-1">SurgiQ Srl</h5>
+        <div class="list-group-item experience pb-2 mx-auto w-75">
+          <h5 class="headline text-center mb-1">SurgiQ Srl</h5>
           <small class="text-start"> Oct-2020 to Jan-2021 </small>
           <p class="mb-1 justify-content-center">After the Master thesis I continued to developed it thanks to the collaboration with SurgiQ. In this period I was able
             to develop the thesis work in a real scenario and develop other frameworks to give clinics and hospital facilities a usable tools to use AI techniques to better
             manage their resources. During this period I learned and used NodeJS, Angular, GraphQL and NoSQL Databases while I used Answer Set Programming fro developing AI tools. </p>
         </div>
-        <div class="list-group-item experience py-3 mx-auto w-75">
-          <h5 class="py-2 headline text-center mb-1">Trilog S.P.A</h5>
+        <div class="list-group-item experience pb-2 mb-3 mx-auto w-75">
+          <h5 class="headline text-center mb-1">Trilog S.P.A</h5>
           <small class="text-start"> Mar-2018 to Jun-2018 </small>
           <p class="mb-1 justify-content-center">I worked as a SAP ABAP developer before starting the MCs. This was a very formative experience in which
             I learned to collaborate and work in a working environment. Despite I worked for just three months I was able to work on some projects for famous fashion
@@ -112,10 +120,11 @@
         </div>
 
       </div>
+      <hr>
     </div>
 
 
-    <div class="pt-3 custom-jumbo3">
+    <div class="pt-3 custom-jumbo3" id="edu">
       <h2 class="text-center pt-3 font-weight-bold h1">Educations</h2>
       <div class="timeline mx-auto">
         <section class="timeline p-2">
@@ -123,11 +132,15 @@
             <div class="timeline-item">
               <div class="timeline-img"></div>
               <div class="timeline-content">
-                <h2>Master in Computer Engineering</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime ipsa ratione omnis alias cupiditate saepe atque totam aperiam sed nulla voluptatem recusandae dolor, nostrum excepturi amet in dolores. Alias, ullam.</p>
+                <h2>MSc in Computer Engineering, University of Genoa</h2>
+                <h4>Artificial Intelligence & Human-Centered Computing</h4>
+                <p>Thesis: "Artificial Intelligence techniques for solving scheduling problem of chemotherapy treatments"</p>
+                <p>Relator: Marco Maratea</p>
+                <p>Finale Grade: 110/110 cum Laude</p>
                 <a class="bnt-more">AI</a>
                 <a class="bnt-more">ASP</a>
                 <a class="bnt-more">Machine Learning</a>
+                <a class="bnt-more">PDDL</a>
                 <a class="bnt-more">NLP</a>
               </div>
             </div>
@@ -135,7 +148,8 @@
             <div class="timeline-item">
               <div class="timeline-img"></div>
               <div class="timeline-content">
-                <h2>Master in Computer Engineering</h2>
+                <h2>MSc in Computer Engineering, University of Genoa</h2>
+                <p class="h5">Artificial Intelligence & Human-Centered Computing</p>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime ipsa ratione omnis alias cupiditate saepe atque totam aperiam sed nulla voluptatem recusandae dolor, nostrum excepturi amet in dolores. Alias, ullam.</p>
                 <a class="bnt-more">AI</a>
                 <a class="bnt-more">ASP</a>
